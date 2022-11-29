@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Bruno Sierra",
+    "dev": "Backend Developer",
+    "img": "bruno.png"
+  },
+  {
+    "name": "Flor Pelliza",
+    "dev": "QA Developer",
+    "img": "flor.png"
+  },  
+  {
+    "name": "Giu Nicoli",
+    "dev": "DevOps",
+    "img": "giu.png"
+  },
+  {
+    "name": "Manu Förster",
+    "dev": "Backend Developer",
+    "img": "manu.png"
+  },
+  {
+    "name": "Romi Colombo",
+    "dev": "Backend Developer",
+    "img": "romi.png"
+  },
+  {
+    "name": "Sergio Garcia",
+    "dev": "Backend Developer",
+    "img": "sergio.png"
+  }
+]
