@@ -1,0 +1,26 @@
+.main {
+  padding-top: 3em;
+  background-color: #32353C;
+}
+
+.main__subtitle {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 13px;
+  color: #C1FD35;
+  padding-bottom: 0.5rem;
+}
+
+.main__title {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.main__section {
+  padding: 0 8em;
+  background-color: #32353C;
+}
+

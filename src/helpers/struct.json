@@ -1,0 +1,20 @@
+[
+  {
+    "number":".01",
+    "title": "Backend",
+    "description": "El backend está compuesto, en principio, por 5 servicios internos: users, accounts, cards, transfers y crypto. Por otra parte, cuenta con dos modulos externos: uno para conectar a la blockchain y otro para la simulacion de consumo de API tarjetas.El módulo de usuarios va a contener los feigns de accounts y transactions que devolvera la respuesta al usuario al momento de loguearse.",
+    "img": "backend.png"
+  },
+  {
+    "number": ".02",
+    "title": "Infraestructura",
+    "description": "Una descripción",
+    "img": "infra.png"
+  },
+  {
+    "number": ".03",
+    "title": "Testing",
+    "description": "Reporte de Testing",
+    "img": "testing.png"
+  }
+]

@@ -2,6 +2,7 @@ import React from "react";
 import About from "../components/About";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
+import HeaderHome from "../components/HeaderHome";
 
 const AboutUs = () => {
 
@@ -9,12 +10,7 @@ const AboutUs = () => {
     <>
       <header className="header">
         <Menu />
-        <div className="header__intro">
-          <h1 className="header__title">
-            Construímos nuevos mundos
-          </h1>
-          <h3 className="header__subtitle">Somos <span>Alpha</span></h3>
-        </div>
+        <HeaderHome />
       </header>
       <main className="main">
         <About />

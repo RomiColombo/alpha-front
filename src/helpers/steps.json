@@ -1,0 +1,22 @@
+[
+  {
+    "date": "28/10/2022",
+    "title":"Primer Sprint",
+    "description":"El backend estaba compuesto por dos microservicios: User y accounts. Seguridad realizada con Keycloak y OAuht2"
+  },
+  {
+    "date": "10/11/2022",
+    "title":"Segundo Sprint",
+    "description":"Se incorporaron nuevos microservicios: Cards, transactions. Se realizaron test unitarios y automatizados"
+  },
+  {
+    "date": "24/11/2022",
+    "title":"Tercer Sprint",
+    "description":"Se incorporó una API externa. Se comenzó a utilizar KAFKA como framework para cola de mensajes. Se inició el armado y montaje de la infraestructura en AWS"
+  },
+  {
+    "date": "13/12/2022",
+    "title":"Cuarto Sprint",
+    "description":"Se implementó la reactividad en los microservicios. Se implementó la caché centralizada. A su vez se configuró el circuit breaker. Se montó la API en AWS"
+  }
+]

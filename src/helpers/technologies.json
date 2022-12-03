@@ -1,0 +1,34 @@
+[
+  {
+    "name":"java",
+    "img":"java.png"
+  },
+  {
+    "name":"spring",
+    "img":"spring.png"
+  },
+  {
+    "name":"docker",
+    "img":"docker.png"
+  },
+  {
+    "name":"kafka",
+    "img":"kafka.png"
+  },
+  {
+    "name":"postman",
+    "img":"postman.png"
+  },
+  {
+    "name":"aws",
+    "img":"aws.png"
+  },
+  {
+    "name":"restAssured",
+    "img":"restassured.png"
+  },
+  {
+    "name":"junit",
+    "img":"junit.png"
+  }
+]
