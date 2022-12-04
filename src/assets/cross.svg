@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="23" height="23">
+	<title>cross</title>
+	<defs>
+		<image  width="23" height="23" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXAQMAAADa5EbjAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAAwf01wqseawAAAAJ0Uk5TAP9bkSK1AAAASUlEQVR4nGNgAAILIKwBwjqGPwz1jH8Y7Jt/MMgf/8DA//4BA/v/AwzM/xsYGP8DFf5jANMgPkgcJA9SB1IP0gfSDzIHZB4QAAA0ZR0ncJOaKwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

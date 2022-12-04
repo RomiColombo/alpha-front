@@ -109,6 +109,10 @@
   cursor: pointer;
 }
 
+.header__btnApp:hover, .header__btnDoc:hover{
+  transform: scale(1.1);
+}
+
 .header__btnDoc {
   background: transparent;
   border: 1px solid #C1FD35;

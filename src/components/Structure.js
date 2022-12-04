@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import struct from '../helpers/struct.json'
+import ImgModal from './modals/imgModal';
 
 const Structure = () => {
+
+  const [imgSelect, setImgSelect] = useState("");
+  const [imgTitle, setImgTitle] = useState("");
+  const [openModal, setOpenModal] = useState(false);
+
+  const open = ({ img, title }) => {
+    setImgSelect(img);
+    setImgTitle(title);
+    setOpenModal(true);
+  }
 
   return (
     <section className="main__section">
@@ -9,7 +20,8 @@ const Structure = () => {
         <div key={index}>
           {index % 2 === 0 &&
             <div className='struct struct-right'>
-              <div style={{ backgroundImage: `url(images/struct/${str.img})` }} className="struct__img">
+              <div className="struct__img">
+                <img src={`images/struct/${str.img}`} alt={`estructura del ${str.title}`} onClick={() => open({ img: `${str.img}`, title: `${str.title}` })} />
               </div>
               <div className="struct__content">
                 <p className='struct__num'>{str.number}</p>
@@ -25,12 +37,14 @@ const Structure = () => {
                 <p className="struct__title ">{str.title}</p>
                 <h3 className="struct__desc">{str.description}</h3>
               </div>
-              <div style={{ backgroundImage: `url(images/struct/${str.img})` }} className="struct__img">
+              <div className="struct__img">
+                <img src={`images/struct/${str.img}`} alt={`estructura del ${str.title}`} onClick={() => open({ img: `${str.img}`, title: `${str.title}` })}/>
               </div>
             </div>
           }
         </div>
       ))}
+      {openModal && <ImgModal imgUrl={imgSelect} imgTitle={imgTitle} setImgSelect={setImgSelect} setImgTitle={setImgTitle} setOpenModal={setOpenModal} />}
     </section>
   )
 }
