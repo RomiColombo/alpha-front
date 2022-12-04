@@ -4,6 +4,7 @@ import HeaderSections from "../components/HeaderSections"
 import Technologies from "../components/Technologies";
 import Steps from "../components/Steps";
 import Structure from "../components/Structure";
+import Footer from "../components/Footer";
 
 
 const Product = () => {
@@ -16,11 +17,9 @@ const Product = () => {
       <Technologies />
       <main className="main">
         <Steps />
-        <Structure />
-
-        
-
+        <Structure />       
       </main>
+      <Footer />
     </>
 
 
