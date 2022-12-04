@@ -1,10 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/logo/alpha-white.png"
 
 const Menu = () => {
+
   return (
     <nav className="menu">
-      <img src={logo} alt="Alpha logo" className="menu__logo" />
+      <Link to="/">
+        <img src={logo} alt="Alpha logo" className="menu__logo" />
+      </Link>
       <ul className="menu__options">
         <li className="menu__options-individual"><a href="/">Home</a></li>
         <li className="menu__options-individual"><a href="/#aboutUs">Sobre nosotros</a></li>
