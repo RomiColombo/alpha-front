@@ -32,9 +32,14 @@
   list-style: none;
 }
 
-.footer__content-option:hover{
+.footer__content-option a:hover{
   color:#C1FD35;
   cursor: pointer;
+}
+
+.footer__content-option a {
+  text-decoration: none;
+  color: #A2A2A2;
 }
 
 .copyright {

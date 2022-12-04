@@ -18,9 +18,9 @@ const Footer = () => {
       <div>
         <p className="footer__title">Alpha links</p>
         <ul className="footer__content">
-          <li className="footer__content-option"><a>Home</a></li>
-          <li className="footer__content-option"><a href="#aboutUs">Sobre Nosotros</a></li>
-          <li className="footer__content-option"><a>Digital Alpha Money</a></li>
+          <li className="footer__content-option"><a href="/">Home</a></li>
+          <li className="footer__content-option"><a href="/#aboutUs">Sobre Nosotros</a></li>
+          <li className="footer__content-option"><a href="/digitalAlpha">Digital Alpha Money</a></li>
         </ul>
       </div>
       <div>
