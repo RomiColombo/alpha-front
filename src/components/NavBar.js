@@ -36,7 +36,7 @@ const NavBar = () => {
             <li className="menu__options-individual" onClick={() => showMenu({ optionSelected: 2 })}>Sobre Alpha</li>
           </ul>
         </div>
-        <a className="menu_goApp" href="ec2-3-23-230-250.us-east-2.compute.amazonaws.com:8081">Ingresar</a>
+        <a className="menu_goApp" href="ec2-3-23-230-250.us-east-2.compute.amazonaws.com:8081" target="_blank" rel="noopener noreferrer">Ingresar</a>
 
       </div>
       {
