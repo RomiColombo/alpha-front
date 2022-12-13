@@ -16,7 +16,6 @@ const Footer = () => {
         <ul className="footer__content">
           <li className="footer__content-option"><a href="/funcionalidades/transferencias">Transferencias</a></li>
           <li className="footer__content-option"><a href="/funcionalidades/compras">Compras</a></li>
-          <li className="footer__content-option"><a href="/funcionalidades/pagos">Pagos</a></li>
         </ul>
       </div>
       <div>
@@ -24,6 +23,7 @@ const Footer = () => {
         <ul className="footer__content">
           <li className="footer__content-option"><a href="/nosotros/equipo">Nosotros</a></li>
           <li className="footer__content-option"><a href="/nosotros/proceso">El proceso</a></li>
+          <li className="footer__content-option"><a href="https://documenter.getpostman.com/view/24423720/2s8YsqUu6C" target="_blank" rel="noopener noreferrer">Documentación</a></li>
         </ul>
       </div>
       <div>

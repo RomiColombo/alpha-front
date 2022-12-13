@@ -8,7 +8,7 @@
   {
     "number": ".02",
     "title": "Infraestructura",
-    "description": "Como base tenemos una Three Tier Architecture que nos ayudará a separar perfectamente las capas de presentación, lógica y física permitiéndonos manejar en tráfico y nível de seguridad necesarios para cada capa, manteniendo una latencia aceptable para nuestros usuarios. El pipeline de GitLab CICD actualiza su estructura con cada proceso de integración y se prepara para un deploy en los diferentes entornos como “Development” y después de una correcta review se deployará en “Production”. Como bases de datos elegimos Document DB, una buena solución en la nube para migrar desde MongoDB.",
+    "description": "Como base tenemos una Three Tier Architecture que nos ayudará a separar perfectamente las capas de presentación, lógica y física permitiéndonos manejar en tráfico y nível de seguridad necesarios para cada capa, manteniendo una latencia aceptable para nuestros usuarios. El pipeline de GitLab CICD actualiza su estructura con cada proceso de integración y se prepara para un deploy en los diferentes entornos como “Development” y después de una correcta review se deployará en “Production”. Como bases de datos elegimos Mongo DB contenerizada. Como estrategia de Branching utilizamos GitLab Flow y para el repositorio un monorepositorio lo que nos permitió tener los microservicios centralizados",
     "img": "infra.png"
   },
   {
