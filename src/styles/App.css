@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url(nav.css);
+@import url(header.css);
+@import url(bodyHome.css);
+@import url(footer.css);
+@import url(subsectionheader.css);
+@import url(subsectioncontent.css);
+@import url(bodybuy.css);
+@import url(bodyUs.css);
+@import url(bodyProcess.css);
+@import url(bodyContact.css);
+@import url(bodySecurity.css);
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  padding: 0em 8em 3em 8em;
+  background-color: #32353C;
+}
+
+footer{
+  background-color: #3A393E;
+  padding: 3em 8em;
+}

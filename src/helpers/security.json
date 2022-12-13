@@ -1,0 +1,25 @@
+[
+  {
+    "title": "Claves",
+    "img": "password.png",
+    "description": [
+      "Las claves que utilizas para operar en Alpha son confidenciales. No los compartas con nadie. Tampoco muestres los datos de tu tarjeta. Cuando crees tu clave evitá usar información personal que pueda ser fácil de adivinar (fechas de cumpleaños, aniversarios)"
+    ]
+  },
+  {
+    "title": "Dispositivos",
+    "img": "secured.png",
+    "description": [
+      "Bloquea con clave o patrón los dispositivos donde utilices tu Alpha Wallet. Actualizá regularmente tu sistema operativo para tener los últimos parches de seguridad"
+    ]
+  },
+  {
+    "title": "Operaciones",
+    "img": "operations.png",
+    "description": [
+      "No confies en comunicaciones que contengan links sospechosos o que te pidan la clave de tu Alpha Wallet o cualquier otro tipo de información confidencial. Nunca te vamos a contactar por otro medio que no sean los oficiales (da.digitalalpha@gmail.com)",
+      "Cuando compres online verificá que la web sea legítima y que se trate de un sitio seguro. Recordá que Alpha Wallet es un medio de pago y no es responsable por las transacciones que realices",
+      "Si tenes alguna duda o sospecha antes o después de haber realizado una operación escribinos por mail a da.digitalalpha@gmail.com para que podamos ayudarte"
+    ]
+  }
+]

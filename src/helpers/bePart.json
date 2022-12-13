@@ -1,0 +1,22 @@
+[
+  {
+    "step": ".01",
+    "description":"Ingresá a la web",
+    "img":"web.png"
+  },
+  {
+    "step": ".02",
+    "description":"Completá el registro con tus datos",
+    "img":"registry.png"
+  },
+  {
+    "step": ".03",
+    "description":"Aguardá la validación de tus datos",
+    "img":"validation.png"
+  },
+  {
+    "step": ".04",
+    "description":"¡Ya sos todo un Alpha! Podés operar con tu Alpha wallet",
+    "img":"wallet.png"
+  }
+]

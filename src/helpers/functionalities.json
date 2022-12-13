@@ -1,0 +1,14 @@
+[
+  {
+    "title":"Transferencias",
+    "description":"Podés enviar y recibir dinero desde cualquier cuenta",
+    "img":"transfers.svg",
+    "url":"/funcionalidades/transferencias"
+  },
+  {
+    "title":"Compras",
+    "description":"Podes hacer compras en cualquier comercio o página web que acepte Mastercard",
+    "img":"card.svg",
+    "url":"/funcionalidades/compras"
+  }
+]

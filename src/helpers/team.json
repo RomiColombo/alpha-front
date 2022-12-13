@@ -2,31 +2,37 @@
   {
     "name": "Bruno Sierra",
     "dev": "Backend Developer",
-    "img": "bruno.png"
+    "img": "bruno.png",
+    "link": "https://www.linkedin.com/in/bruno-sierra-pugliese-6364131b7/"
   },
   {
     "name": "Flor Pelliza",
     "dev": "QA Developer",
-    "img": "flor.png"
+    "img": "flor.png",
+    "link": "https://www.linkedin.com/in/florencia-pelliza/"
   },  
   {
     "name": "Giu Nicoli",
     "dev": "DevOps",
-    "img": "giu.png"
+    "img": "giu.png",
+    "link": "https://www.linkedin.com/in/giulianni-nicoli-rodrigues/"
   },
   {
     "name": "Manu Förster",
     "dev": "Backend Developer",
-    "img": "manu.png"
+    "img": "manu.png",
+    "link": "https://ar.linkedin.com/in/emmanuel-forster"
   },
   {
     "name": "Romi Colombo",
     "dev": "Backend Developer",
-    "img": "romi.png"
+    "img": "romi.png",
+    "link": "https://www.linkedin.com/in/romina-paola-colombo-455440ba/"
   },
   {
     "name": "Sergio Garcia",
     "dev": "Backend Developer",
-    "img": "sergio.png"
+    "img": "sergio.png",
+    "link": "https://www.linkedin.com/in/sa-garcia/"
   }
 ]

@@ -1,11 +1,9 @@
-import React from "react";
+import './styles/App.css';
 import AppRoutes from "./routes/AppRoutes";
-import './style/style.css';
-import AboutUs from './view/aboutUs'
-
 
 function App() {
   return (
+
     <AppRoutes />
   );
 }

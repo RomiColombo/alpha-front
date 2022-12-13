@@ -1,0 +1,42 @@
+.subsection{
+  background-color: #32353C;
+  padding: 8rem 0;
+}
+
+.subsection__header{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3rem;
+  align-items: center;
+  padding: 1.5rem 8em;
+}
+
+.subsection__img{
+  width: 32rem;
+  border-radius: 20px;
+  vertical-align: middle;
+}
+
+.subsection__header h1{
+  color: white;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 60px;
+  font-family: 'Manrope';
+}
+
+.subsection__header h3{
+  color: #C1FD35;
+  font-size: 27px;
+  font-weight: normal;
+  line-height: 60px;
+  font-family: 'Open Sans';
+}
+
+.subsection__header p{
+  color: white;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 30px;
+  font-family: 'Open Sans';
+}

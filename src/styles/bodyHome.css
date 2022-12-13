@@ -1,0 +1,131 @@
+/* ----------------------------- Functionalities ---------------------------- */
+.link{
+  text-decoration: none;
+}
+
+.home__functionalities {
+  padding: 4rem 0;
+}
+
+.home__functionalities__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 6rem;
+  padding-top: 3rem;
+}
+
+.home__functionalities__img {
+  height: 5rem;
+}
+
+.home__functionalities__title {
+  font-family: 'Manrope';
+  font-weight: bold;
+  transform-origin: 0% 100%;
+  transform: translate(0px, 0px);
+  color: #C1FD35;
+}
+
+.home__functionalitie {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.home__functionalitie:hover {
+  box-shadow: 0 0 15px rgb(193, 253, 53, 0.5);
+  border-radius: 10px;
+}
+
+.home__functionalitie__title {
+  font-family: 'Manrope';
+  color: #C1FD35;
+}
+
+.home__functionalitie__desc {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  color: #9b9b9b;
+}
+
+/* -------------------------------- Be Alpha -------------------------------- */
+.home__beAlpha{
+  padding: 4rem 0;
+}
+
+.home__beAlpha__title {
+  font-family: 'Manrope';
+  font-weight: bold;
+  color: #C1FD35;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.home__beAlpha__container {
+  padding: 3em 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 6rem;
+}
+
+
+.home__beAlpha__stepCont {
+  column-gap: 1.5rem;
+  display: flex;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
+.home__beAlpha__number {
+  color: #C1FD35;
+  font-family: 'Manrope';
+  font-size: 1.4em;
+}
+
+.home__beAlpha__description {
+  color: #ffffff;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.home__beAlpha__img{
+  height: 3rem;
+}
+
+/* -------------------------------- Add money ------------------------------- */
+
+.home__addMoney{
+  padding: 4rem 0;
+}
+
+.home__addMoney__title{
+  font-family: 'Manrope';
+  font-weight: bold;
+  color: #C1FD35;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.home__addMoney__container{
+  display: flex;
+  column-gap: 6em;
+  align-items: center;
+  padding-top: 3em;
+}
+
+.home__addMoney__way{
+  display: flex;
+  column-gap: 1em;
+  align-items: center;
+}
+
+.home__addMoney__subtitle{
+  color:#ffffff;
+  font-family: 'Open Sans';
+  font-weight: normal;
+
+}

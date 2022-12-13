@@ -1,0 +1,27 @@
+.content__info{
+  display: flex;
+  column-gap: 3em;
+}
+
+.content__individual{
+  background: #201F22;
+  border-radius: 8px;
+  padding: 2rem;
+  width: 50%;
+  box-shadow: 0 0 12px rgb(193, 253, 53, 0.4);
+}
+
+.content__subtitle{
+  font-family: 'Manrope';
+  font-size: 18px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.content__description{
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 30px;
+  color: #777777;
+}

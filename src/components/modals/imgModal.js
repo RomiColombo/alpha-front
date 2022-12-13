@@ -15,7 +15,7 @@ const ImgModal = ({ imgUrl, imgTitle, setOpenModal, setImgSelect, setImgTitle })
         <div className="struct__modal-closeIcon">
           <img src={cross} alt="cross icon" onClick={closeModal} width={15} />
         </div>
-        <img src={`images/struct/${imgUrl}`} className='struct__img-full' alt="image from struct" />
+        <img src={`${imgUrl}`} className='struct__img-full' alt="image from struct" />
         <p>{imgTitle}</p>
       </div>
     </div>

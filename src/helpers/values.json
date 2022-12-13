@@ -1,17 +1,17 @@
 [
   {
-    "title": "Compromiso con el equipo",
-    "description": "La base para un buen trabajo es que el equipo se sienta cómodo trabajando, logramos crear un buen clima desde el día uno lo que ayudó a que hoy podamos presentar una API sólida.",
+    "title": "Compromiso",
+    "description": "Con el equipo y con nuestro trabajo, buscando desarrollar una API sólida",
     "img": "commitment.png"
   },
   {
-    "title": "Coraje para probar nuevas tecnologías",
-    "description": "Para desarrollar la API fuimos más allá, investigamos acerca de nuevos frameworks y tecnologías que nos permitieron brindar un mejor producto.",
+    "title": "Coraje",
+    "description": "Para probar nuevas tecnologías, desafiamos nuestros propios límites en cada iteración",
     "img": "courage.png"
   },
   {
-    "title": "Objetivo claro",
-    "description": "Desde el comienzo, como equipo, teníamos en claro que buscábamos desarrollar una APP que pueda ser lanzada en el mercado.",
+    "title": "Misión",
+    "description": "Nos impulsó nuestro objetivo: desarrollar una APP que pueda ser lanzada en el mercado",
     "img": "target.png"
   }
 ]

@@ -1,20 +1,20 @@
 [
   {
-    "number":".01",
+    "number": ".01",
     "title": "Backend",
-    "description": "El backend está compuesto, en principio, por 5 servicios internos: users, accounts, cards, transfers y crypto. Por otra parte, cuenta con dos modulos externos: uno para conectar a la blockchain y otro para la simulacion de consumo de API tarjetas.El módulo de usuarios va a contener los feigns de accounts y transactions que devolvera la respuesta al usuario al momento de loguearse.",
+    "description": "El backend está compuesto por 5 servicios internos: users, accounts, cards, transfers y middleware. Por otra parte, cuenta con un módulo externo que simula las API de las emisoras de tarjetas de débito y crédito. El módulo de usuarios va a contener los feigns de accounts y transactions que devolvera la respuesta al usuario al momento de loguearse.",
     "img": "backend.png"
   },
   {
     "number": ".02",
     "title": "Infraestructura",
-    "description": "Una descripción",
+    "description": "Como base tenemos una Three Tier Architecture que nos ayudará a separar perfectamente las capas de presentación, lógica y física permitiéndonos manejar en tráfico y nível de seguridad necesarios para cada capa, manteniendo una latencia aceptable para nuestros usuarios. El pipeline de GitLab CICD actualiza su estructura con cada proceso de integración y se prepara para un deploy en los diferentes entornos como “Development” y después de una correcta review se deployará en “Production”. Como bases de datos elegimos Document DB, una buena solución en la nube para migrar desde MongoDB.",
     "img": "infra.png"
   },
   {
     "number": ".03",
     "title": "Testing",
-    "description": "Reporte de Testing",
+    "description": "Las pruebas de humo se realizarán en primera instancia para confirmar el correcto funcionamiento del componente trabajado a través de pruebas funcionales con Postman y JUnit. Una vez realizadas y aprobadas estas pruebas, los casos podrán ser incluidos en una suite de regresión para corroborar que este nuevo componente no afecta el correcto funcionamiento del sistema en su conjunto. El criterio de salida será lograr como mínimo el 80% de cobertura de las pruebas realizadas para que el sistema sea considerado adecuado para su uso.",
     "img": "testing.png"
   }
 ]

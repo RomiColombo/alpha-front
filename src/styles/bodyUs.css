@@ -1,0 +1,86 @@
+.aboutUs{
+  padding-bottom: 3rem;
+}
+
+.aboutUs__title {
+  font-family: 'Manrope';
+  font-weight: normal;
+  color: #C1FD35;
+  line-height: 40px;
+}
+
+.aboutUs__subtitle{
+  font-family: 'Open Sans';
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 40px;
+}
+
+.aboutUs__team{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3em 0;
+  gap: 5%;
+}
+
+.team__card{
+  border-radius: 8px;
+  padding: 2rem 3rem;
+  box-shadow: 0 0 12px rgb(193, 253, 53, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.team__card:hover{
+  box-shadow: 0 0 15px rgb(193, 253, 53, 0.8);
+}
+
+.team__name {
+  font-family: 'Manrope';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.team__rol {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 13px;
+  color: #AAAAAA;
+}
+
+.team__img {
+  height: 12rem;
+}
+
+.values{
+  display: flex;
+  column-gap: 3rem;
+  padding: 2rem 0;
+}
+
+.value__card{
+  background: #201F22;
+  border-radius: 8px;
+  padding: 2rem 3rem;
+  width: 50%;
+  box-shadow: 0 0 15px rgb(193, 253, 53, 0.3);
+}
+
+.value__title{
+  font-family: 'Manrope';
+  font-size: 18px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+.value__desc{
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 30px;
+  color: #777777;
+}
